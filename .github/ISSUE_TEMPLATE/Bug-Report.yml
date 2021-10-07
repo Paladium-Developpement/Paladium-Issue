@@ -13,25 +13,25 @@ body:
   - type: input
     id: pseudo
     attributes:
-      label: Pseudo Ingame
+      label: Pseudo InGame
     validations:
       required: true
   - type: textarea
     id: what-happened
     attributes:
-      label: Que c'est il passé
-      description: Dite nous ce qui est arriver
+      label: Que s'est-il passé ?
+      description: Dites-nous ce qui est arrivé
     validations:
       required: true
   - type: textarea
     id: what-should-happened
     attributes:
-      label: 'Qu''aurait il dû arriver ? '
+      label: 'Qu'aurait-il dû arriver ?'
   - type: dropdown
     id: server
     attributes:
-      label: Server
-      description: Sur quel serveur c'est arrivée
+      label: Serveur
+      description: Sur quel serveur est-ce arrivé ?
       options:
         - Minage
         - Mineria
@@ -46,20 +46,20 @@ body:
   - type: input
     id: os
     attributes:
-      label: 'Systeme d''exploitation '
-      description: Quel est votre system d'exploitation ? Windows,Linux,Mac
+      label: 'Système d'exploitation'
+      description: Quel est votre système d'exploitation ? Windows,Linux,Mac
   - type: input
     id: ram
     attributes:
       label: Ram
-      description: Combiens avez vous de giga de Ram ?
+      description: Combien avez-vous de giga de Ram ?
   - type: input
     id: cg
     attributes:
       label: Carte Graphique
-      description: 'Quel carte graphique avez vous ? '
+      description: 'Quelle carte graphique avez-vous ?'
   - type: textarea
     id: log
     attributes:
       label: LOG
-      description: Si vous avez des logs a nous fournir c'est ici !
+      description: Si vous avez des logs à nous fournir, c'est ici !
