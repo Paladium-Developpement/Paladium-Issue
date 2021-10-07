@@ -3,7 +3,7 @@ description: Report un bug
 title: '[Bug]: '
 labels:
   - bug
-  - triage
+  - ' triage'
 assignees:
   - Zeldown
   - goldorak85
@@ -20,9 +20,13 @@ body:
     id: what-happened
     attributes:
       label: Que c'est il passé
-      description: Dite nous ce qui aurais dû arriver
+      description: Dite nous ce qui est arriver
     validations:
       required: true
+  - type: textarea
+    id: what-should-happened
+    attributes:
+      label: 'Qu''aurait il dû arriver ? '
   - type: dropdown
     id: server
     attributes:
@@ -39,3 +43,23 @@ body:
         - Saharia
         - Farmland
         - Lobby
+  - type: input
+    id: os
+    attributes:
+      label: 'Systeme d''exploitation '
+      description: Quel est votre system d'exploitation ? Windows,Linux,Mac
+  - type: input
+    id: ram
+    attributes:
+      label: Ram
+      description: Combiens avez vous de giga de Ram ?
+  - type: input
+    id: cg
+    attributes:
+      label: Carte Graphique
+      description: 'Quel carte graphique avez vous ? '
+  - type: textarea
+    id: log
+    attributes:
+      label: LOG
+      description: Si vous avez des logs a nous fournir c'est ici !
