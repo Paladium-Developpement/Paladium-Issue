@@ -26,7 +26,7 @@ body:
   - type: textarea
     id: what-should-happened
     attributes:
-      label: 'Qu'aurait-il dû arriver ?'
+      label: 'Qu''aurait-il dû arriver ?'
   - type: dropdown
     id: server
     attributes:
@@ -46,7 +46,7 @@ body:
   - type: input
     id: os
     attributes:
-      label: 'Système d'exploitation'
+      label: 'Système d''exploitation'
       description: Quel est votre système d'exploitation ? Windows,Linux,Mac
   - type: input
     id: ram
