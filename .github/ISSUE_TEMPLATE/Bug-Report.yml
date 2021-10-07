@@ -47,7 +47,7 @@ body:
     id: os
     attributes:
       label: 'Système d''exploitation'
-      description: Quel est votre système d'exploitation ? Windows,Linux,Mac
+      description: Quel est votre système d'exploitation ? Windows, Linux, Mac
   - type: input
     id: ram
     attributes:
