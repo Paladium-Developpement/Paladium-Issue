@@ -4,11 +4,6 @@ title: '[FeedBack]: '
 labels:
   - bug
   - ' triage'
-assignees:
-  - Zeldown
-  - goldorak85
-  - aureliancnx
-  - terrainwax
 body:
   - type: input
     id: pseudo
