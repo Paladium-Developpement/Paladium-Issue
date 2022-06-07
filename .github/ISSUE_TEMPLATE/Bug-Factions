@@ -3,7 +3,7 @@ description: Report un bug
 title: '[Bug][Factions]: '
 labels:
   - bug
-  - factions
+  - faction
   - ' triage'
 body:
   - type: input
