@@ -1,6 +1,9 @@
 name: Bug faction
 description: Report un bug du faction
 title: '[Bug][Faction]: '
+assignees:
+  - Zeldown
+  - aureliancnx
 labels:
   - bug
   - faction
