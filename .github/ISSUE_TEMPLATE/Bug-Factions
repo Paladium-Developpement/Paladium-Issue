@@ -1,6 +1,6 @@
 name: Bug faction
-description: Report un bug
-title: '[Bug][Factions]: '
+description: Report un bug du faction
+title: '[Bug][Faction]: '
 labels:
   - bug
   - faction
