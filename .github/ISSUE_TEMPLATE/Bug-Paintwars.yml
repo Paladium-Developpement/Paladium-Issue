@@ -1,0 +1,47 @@
+name: Bug paintwars
+description: Report un bug du jeu PaintWars
+title: '[Bug][PaintWars]: '
+assignees:
+  - Zeldown
+labels:
+  - bug
+  - paintwars
+  - ' triage'
+body:
+  - type: input
+    id: pseudo
+    attributes:
+      label: Pseudo InGame
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Que s'est-il passé ?
+      description: Dites-nous ce qui est arrivé
+    validations:
+      required: true
+  - type: textarea
+    id: what-should-happened
+    attributes:
+      label: 'Qu''aurait-il dû arriver ?'
+  - type: input
+    id: os
+    attributes:
+      label: 'Système d''exploitation'
+      description: Quel est votre système d'exploitation ? Windows, Linux, Mac
+  - type: input
+    id: ram
+    attributes:
+      label: Ram
+      description: Combien avez-vous de giga de Ram ?
+  - type: input
+    id: cg
+    attributes:
+      label: Carte Graphique
+      description: 'Quelle carte graphique avez-vous ?'
+  - type: textarea
+    id: log
+    attributes:
+      label: LOG
+      description: Si vous avez des logs à nous fournir, c'est ici !
