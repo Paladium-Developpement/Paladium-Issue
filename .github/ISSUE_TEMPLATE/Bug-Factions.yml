@@ -28,6 +28,8 @@ body:
       label: 'Qu''aurait-il dû arriver ?'
   - type: dropdown
     id: server
+    validations:
+      required: true
     attributes:
       label: Serveur
       description: Sur quel serveur est-ce arrivé ?
@@ -42,6 +44,12 @@ body:
         - Saharia
         - Farmland
         - Lobby
+  - type: input
+    id: date
+    attributes:
+      label: Date et heure de la production du bug
+    validations:
+      required: true
   - type: input
     id: os
     attributes:
