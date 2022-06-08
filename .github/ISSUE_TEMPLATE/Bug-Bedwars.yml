@@ -1,6 +1,6 @@
 name: Bug bedwars
-description: Report un bug du jeu Bedwars
-title: '[Bug][PaintWars]: '
+description: Report un bug du jeu BedWars
+title: '[Bug][BedWars]: '
 assignees:
   - Zeldown
 labels:
