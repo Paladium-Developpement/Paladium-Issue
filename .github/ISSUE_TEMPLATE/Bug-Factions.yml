@@ -34,6 +34,7 @@ body:
       label: Serveur
       description: Sur quel serveur est-ce arrivé ?
       options:
+        - Global
         - Minage
         - Soleratl
         - Muzdan
