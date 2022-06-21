@@ -28,14 +28,18 @@ body:
       label: Serveur
       description: Sur quel serveur est-ce arrivé ?
       options:
+        - Global
         - Minage
-        - Mineria
-        - Fantasia
-        - Volcania
-        - Antartica
-        - Forestia
-        - Oceania
-        - Saharia
+        - Soleratl
+        - Muzdan
+        - Manashino
+        - Naera
+        - Rakavi
+        - Luccento
+        - Imbali
+        - Keltis
+        - Neolith
+        - Untaa
         - Farmland
         - Lobby
   - type: input
