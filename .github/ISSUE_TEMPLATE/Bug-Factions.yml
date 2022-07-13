@@ -52,6 +52,12 @@ body:
       label: Date et heure de la production du bug
     validations:
       required: true
+  - type: checkboxes
+    attributes:
+      label: Le bug que je signale concerne **uniquement** un bug du plugin Factions
+      options:
+        - label: Le bug que je signale concerne **uniquement** un bug du plugin Factions
+          required: true
   - type: input
     id: os
     attributes:
