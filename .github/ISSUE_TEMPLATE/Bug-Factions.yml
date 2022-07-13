@@ -54,7 +54,7 @@ body:
       required: true
   - type: checkboxes
     attributes:
-      label: Le bug que je signale concerne **uniquement** un bug du plugin Factions
+      label: Bug du plugin Faction
       options:
         - label: Le bug que je signale concerne **uniquement** un bug du plugin Factions
           required: true
