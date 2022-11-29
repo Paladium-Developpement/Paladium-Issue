@@ -25,6 +25,20 @@ body:
     id: what-should-happened
     attributes:
       label: 'Qu''aurait-il dû arriver ?'
+    validations:
+      required: true
+  - type: textarea
+    id: game-number
+    attributes:
+      label: 'Numéro de la partie (/lag)'
+    validations:
+      required: true
+  - type: textarea
+    id: game-map
+    attributes:
+      label: 'Nom de la map (/map)'
+    validations:
+      required: true
   - type: input
     id: os
     attributes:
