@@ -27,13 +27,13 @@ body:
       label: 'Qu''aurait-il dû arriver ?'
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: game-number
     attributes:
       label: 'Numéro de la partie (/lag)'
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: game-map
     attributes:
       label: 'Nom de la map (/map)'
