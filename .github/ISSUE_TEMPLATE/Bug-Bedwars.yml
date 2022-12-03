@@ -2,7 +2,7 @@ name: Bug bedwars
 description: Report un bug du jeu BedWars
 title: '[Bug][BedWars]: '
 assignees:
-  - Zeldown
+  - aureliancnx
 labels:
   - bug
   - bedwars
