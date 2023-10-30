@@ -22,6 +22,12 @@ body:
       description: Dites-nous ce qui est arrivé
     validations:
       required: true
+  - type: input
+    id: rec
+    attributes:
+      label: Rec
+    validations:
+      required: true
   - type: textarea
     id: what-should-happened
     attributes:
