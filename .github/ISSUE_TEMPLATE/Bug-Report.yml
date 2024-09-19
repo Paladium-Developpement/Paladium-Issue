@@ -36,16 +36,12 @@ body:
       options:
         - Global
         - Minage
-        - Soleratl
-        - Muzdan
-        - Manashino
-        - Naera
-        - Rakavi
-        - Luccento
-        - Imbali
-        - Keltis
-        - Neolith
-        - Untaa
+        - Aeloria
+        - Egopolis
+        - Runegard
+        - Kilmordra
+        - Xanoth
+        - Event01
         - Farmland
         - Lobby
   - type: input
